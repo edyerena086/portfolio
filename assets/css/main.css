@@ -16,6 +16,81 @@ html, body {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
+.preloader {
+	width: 100%;
+	position: absolute;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-color: #000;
+}
+.main-wrapper {
+	visibility: hidden;
+}
+
+
+.card {
+	border: none;
+}
+.card-body {
+	background-color: #fff;
+	padding-top: 2.5rem;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.2);
+	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.2);
+	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.2);
+}
+.card-title {
+	font-family: 'Raleway', sans-serif!important;
+	font-weight: 600;
+	font-size: 1.5rem;
+	padding-bottom: 1.5rem;
+	min-height: 5rem;
+}
+.card-btn-link {
+	background-color: transparent;
+	color: #222;
+	border: 1px solid #222;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	padding: .5rem 2rem;
+	margin-top: 1.5rem;
+	transition: background-color 0.8s, color 0.8s ease;
+}
+.card-btn-link:hover {
+	background-color: #222;
+	color: #f1f1f1;
+}
+
+.services-home-section h2 {
+	font-weight: 700;
+	font-size: 3.4rem;
+	text-decoration: underline;
+}
+
+/**
+ * -----------------------------------------------------
+ *  HEADER
+ * -----------------------------------------------------
+ *  
+ */
+header {
+	background-color: rgba(0, 0, 0, 0.3)!important;
+}
+
+/**
+ * -----------------------------------------------------
+ *  HOME PAGE
+ * -----------------------------------------------------
+ *  
+ */
+.services-home-section, .card {
+	background-color: #F2F4EC;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
 /**
  * -----------------------------------------------------
  *  FOOTER
@@ -33,7 +108,7 @@ footer, .bg-black {
 	font-size: 2.2rem;
 	font-family: 'Raleway', sans-serif!important;
 	letter-spacing: 1px;
-	padding-top: 2rem;
+	padding-top: 4rem;
 }
 .footer-top p {
 	font-family: 'Raleway', sans-serif!important;
@@ -76,7 +151,7 @@ footer form {
 }
 .footer-bottom {
 	padding-top: .6rem;
-	padding-bottom: .6rem;
+	padding-bottom: 3rem;
 	font-size: 1rem;
 }
 .footer-bottom a {
