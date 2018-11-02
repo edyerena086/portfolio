@@ -6,11 +6,21 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
     <!-- page title -->
-    <title></title>
+    <title>
+    	Desarrollo web y de aplicaciones móviles - SrYerena
+    </title>
 </head>
 
 <body>
+	<!-- Header -->
+	<?php include_once('partials/header.php'); ?>
+
+	<!-- Footer -->
+	<?php include_once('partials/footer.php'); ?>
 
 	<!-- Javascript -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

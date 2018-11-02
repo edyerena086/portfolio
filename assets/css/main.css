@@ -1,0 +1,92 @@
+/**
+ * -----------------------------------------------------
+ *  FONTS
+ * -----------------------------------------------------
+ *  
+ */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700|Roboto+Condensed:400,700');
+
+/**
+ * -----------------------------------------------------
+ *  GENERALS
+ * -----------------------------------------------------
+ *  
+ */
+html, body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/**
+ * -----------------------------------------------------
+ *  FOOTER
+ * -----------------------------------------------------
+ *  
+ */
+footer, .bg-black {
+	background-color: #000;
+}
+.footer-top, .footer-bottom {
+	color: #f1f1f1;
+}
+.footer-top h5 {
+	font-weight: 700;
+	font-size: 2.2rem;
+	font-family: 'Raleway', sans-serif!important;
+	letter-spacing: 1px;
+	padding-top: 2rem;
+}
+.footer-top p {
+	font-family: 'Raleway', sans-serif!important;
+	font-size: 1.2rem;
+}
+footer form {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.footer-contact-form .form-control {
+	font-family: 'Raleway', sans-serif!important;
+	font-size: 1rem;
+	color: #333;
+	border: none;
+	background: transparent!important;
+	border-bottom: 1px solid #333;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	resize: none;
+}
+.footer-contact-form {
+	padding-bottom: 1rem;
+}
+.btn-black {
+	font-weight: 700;
+	background-color: transparent!important;
+	color: #f1f1f1;
+	letter-spacing: 1px;
+	border: 2px solid #999;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	padding: .8rem 2.8rem;
+	transition: background-color 0.8s, color 0.8s ease;
+}
+.btn-black:hover {
+	background-color: #999!important;
+	color: #000;
+}
+.footer-bottom {
+	padding-top: .6rem;
+	padding-bottom: .6rem;
+	font-size: 1rem;
+}
+.footer-bottom a {
+	color: #999;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	transition: color 0.8s ease;
+}
+.footer-bottom a:hover {
+	color: #fff;
+}
