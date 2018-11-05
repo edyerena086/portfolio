@@ -18,13 +18,15 @@
 			<div class="row footer-contact-form">
 				<div class="col-xl-6">
 					<div class="form-group">
-						<input type="text" placeholder="Nombre(s)" class="form-control">
+						<input type="text" placeholder="Nombre(s)" class="form-control" name="nombre">
+						<span id="frmFooterName" class="footer-display-errors"></span>
 					</div>
 				</div>
 
 				<div class="col-xl-6">
 					<div class="form-group">
-						<input type="text" placeholder="Apellido(s)" class="form-control">
+						<input type="text" placeholder="Apellido(s)" class="form-control" name="apellido">
+						<span id="frmFooterLastName" class="footer-display-errors"></span>
 					</div>
 				</div>
 			</div>
@@ -33,13 +35,15 @@
 			<div class="row footer-contact-form">
 				<div class="col-xl-6">
 					<div class="form-group">
-						<input type="email" placeholder="Correo electrónico" class="form-control">
+						<input type="email" placeholder="Correo electrónico" name="email" class="form-control">
+						<span id="frmFooterEmail" class="footer-display-errors"></span>
 					</div>
 				</div>
 
 				<div class="col-xl-6">
 					<div class="form-group">
-						<input type="tel" placeholder="Teléfono" class="form-control">
+						<input type="tel" placeholder="Teléfono" name="telefono" class="form-control">
+						<span id="frmFooterPhone" class="footer-display-errors"></span>
 					</div>
 				</div>
 			</div>
@@ -48,7 +52,7 @@
 			<div class="row footer-contact-form">
 				<div class="col-xl-12">
 					<div class="form-group">
-						<textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Tu Mensaje"></textarea>
+						<textarea name="mensaje" id="" cols="30" rows="5" class="form-control" placeholder="Tu Mensaje"></textarea>
 					</div>
 				</div>
 			</div>

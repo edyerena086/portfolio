@@ -69,6 +69,13 @@ html, body {
 	text-decoration: underline;
 }
 
+/** Sweetalert */
+.swal-modal, .swal-button {
+	-webkit-border-radius: 0px!important;
+	-moz-border-radius: 0px!important;
+	border-radius: 0px!important;
+}
+
 /**
  * -----------------------------------------------------
  *  HEADER
@@ -98,6 +105,11 @@ header {
  * -----------------------------------------------------
  *  
  */
+.slider h1 {
+	color: #fff;
+	font-size: 4.3rem;
+	font-weight: 700;
+}
 .services-home-section, .card {
 	background-color: #F2F4EC;
 	padding-top: 4rem;
@@ -226,4 +238,8 @@ footer form {
 }
 .footer-bottom a:hover {
 	color: #fff;
+}
+.footer-display-errors {
+	color: #fff;
+	font-size: .8rem;
 }

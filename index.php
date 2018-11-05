@@ -31,7 +31,9 @@
 		<!-- Slider -->
 		<div class="container-fluid">
 			<div class="row slider">
-				<div class="col-xl-12">
+				<div class="col-xl-12 justify-content-center d-flex align-items-center">
+					<h1 id="typed">
+					</h1>
 				</div>
 			</div>
 		</div>
@@ -171,6 +173,7 @@
   	<?php include_once('partials/js.php'); ?>
 
   	<!-- Page JS -->
+  	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
   	<script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
     <script src="assets/js/plugins/stats.js"></script>
 </body>
