@@ -4,7 +4,7 @@
  * -----------------------------------------------------
  *  
  */
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700|Roboto+Condensed:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700|Roboto+Condensed:300,400,700');
 
 /**
  * -----------------------------------------------------
@@ -26,7 +26,7 @@ html, body {
 	background-color: #000;
 }
 .main-wrapper {
-	visibility: hidden;
+	display: none;
 }
 
 
@@ -63,7 +63,7 @@ html, body {
 	color: #f1f1f1;
 }
 
-.services-home-section h2 {
+.services-home-section h2, .portfolio h3 {
 	font-weight: 700;
 	font-size: 3.4rem;
 	text-decoration: underline;
@@ -76,7 +76,20 @@ html, body {
  *  
  */
 header {
-	background-color: rgba(0, 0, 0, 0.3)!important;
+	background-color: rgba(0, 0, 0, 1);
+}
+.navbar-brand img {
+	max-width: 80px;
+}
+.nav-link {
+	color: #f1f1f1!important;
+	font-size: 1.1rem;
+	transition: color 0.8s ease;
+	padding-right: 1rem!important;
+	padding-left: 1rem!important;
+}
+.nav-link:hover {
+	color: #9c9c9c!important;
 }
 
 /**
@@ -89,6 +102,55 @@ header {
 	background-color: #F2F4EC;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
+}
+.slider {
+	background: url(../images/web-main-slider.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: 400px;
+}
+
+.about-me {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.about-me h3 {
+	color: #fff;
+	font-size: 2.1rem;
+	font-weight: 300;
+}
+.about-me ul {
+	list-style-type: none;
+	padding-left: 0;
+	padding-top: 1rem;
+}
+.about-me ul li {
+	float: left;
+	display: inline-block;
+	color: #cecece;
+	font-family: 'Raleway', sans-serif!important;
+	font-size: 0.8rem;
+	padding: .3rem 1rem;
+	margin-right: 1rem;
+	border: 1px solid #cecece;
+}
+.about-me-description {
+	width: 100%;
+	clear: both;
+	padding-top: 2.5rem;
+}
+.about-me p {
+	color: #f1f1f1;
+	font-family: 'Raleway', sans-serif!important;
+	padding-top: 1.5rem;
+}
+
+
+.portfolio {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.portfolio h3 {
+	color: #f1f1f1;
 }
 
 /**

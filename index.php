@@ -7,9 +7,12 @@
     <!-- SEO Tags -->
     <meta name="author" content="SrYerena">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- COMMON CSS -->
+    <?php include_once('partials/css.php'); ?>
 
-    <!-- CSS -->
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/main.css" />
 
     <!-- page title -->
@@ -19,11 +22,60 @@
 </head>
 
 <body>
-	<div class="preloader"></div>
+	<!--<div class="preloader"></div>-->
 
-	<div class="main-wrapper">
+	<div class="main-wrappers">
 		<!-- Header -->
 		<?php include_once('partials/header.php'); ?>
+
+		<!-- Slider -->
+		<div class="container-fluid">
+			<div class="row slider">
+				<div class="col-xl-12">
+				</div>
+			</div>
+		</div>
+
+		<!-- About me -->
+		<section class="bg-black about-me">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-8">
+						<h3>
+							¡Hola!, soy Desarrollador Web y de Aplicaciones Móviles en Monterrey, N.L.
+						</h3>
+
+						<ul>
+							<li>
+								Desarrollo web
+							</li>
+
+							<li>
+								Desarrollo de aplicaciones móviles
+							</li>
+
+							<li>
+								SEO
+							</li>
+						</ul>
+
+						<div class="about-me-description">
+							<p>
+								¡Hola! soy Omar Gonzalez desarrollador web y de aplicaciones móviles con más de 8 años de experiencia, he trabajado para diferentes empresas adquiriendo hábilidades técnicas en diferentes áreas como lo son: desarrollo de sitios web, desarrollo de aplicaciones móviles híbdridas, SEO, comercio electrónico, Wordpress, entre otras.
+							</p>
+
+							<p>
+								Uno de mis objetivos es apoyar a empresas y emprendedores con el desarrollo y posicionamiento organico de sus sitios con esto mejorando su flujo de prospectos y ventas, siempre alineado a la estrategia de marketing general implementada con el cliente.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-xl-4">
+						
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<!-- Services -->
 		<section class="services-home-section">
@@ -38,7 +90,7 @@
 
 				<div class="row">
 					<div class="card col-xl-4">
-						<img src="assets/images/facebook-ads-banner.jpg" alt="" class="card-img-top">
+						<img src="assets/images/servicio-desarrollo-web.png" alt="" class="card-img-top">
 						<div class="card-body">
 							<h3 class="card-title text-center">
 								Desarrollo web
@@ -55,7 +107,7 @@
 					</div>
 
 					<div class="card col-xl-4">
-						<img src="assets/images/facebook-ads-banner.jpg" alt="" class="card-img-top">
+						<img src="assets/images/servicio-desarrollo-de-aplicaciones-moviles.png" alt="" class="card-img-top">
 						<div class="card-body">
 							<h3 class="card-title text-center">
 								Desarrollo de aplicaciones móviles
@@ -72,7 +124,7 @@
 					</div>
 
 					<div class="card col-xl-4">
-						<img src="assets/images/facebook-ads-banner.jpg" alt="" class="card-img-top">
+						<img src="assets/images/servicio-seo.png" alt="" class="card-img-top">
 						<div class="card-body">
 							<h3 class="card-title text-center">
 								SEO
@@ -92,14 +144,34 @@
 		</section>
 		<!-- /Services -->
 
+		<!-- Portfolio -->
+		<section class="portfolio bg-black">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12 text-center">
+						<h3>
+							Portafolio.
+						</h3>
+					</div-col-xl-12>
+				</div>
+			</div>
+
+			<div class="container-fluid">
+				<div class="row">
+					
+				</div>
+			</div>
+		</section>
+
 		<!-- Footer -->
 		<?php include_once('partials/footer.php'); ?>
 	</div>
 
-	<!-- Javascript -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!-- COMMON Javascript -->	
+  	<?php include_once('partials/js.php'); ?>
+
+  	<!-- Page JS -->
+  	<script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
     <script src="assets/js/plugins/stats.js"></script>
 </body>
 </html>
