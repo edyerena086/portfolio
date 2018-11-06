@@ -22,7 +22,9 @@
 </head>
 
 <body>
-	<!--<div class="preloader"></div>-->
+	<div class="preloader d-flex align-items-center justify-content-center">
+		<img src="assets/images/loader.svg" alt=""><br/><p>Cargando...</p>
+	</div>
 
 	<div class="main-wrappers">
 		<!-- Header -->
@@ -72,8 +74,8 @@
 						</div>
 					</div>
 
-					<div class="col-xl-4">
-						
+					<div class="col-xl-4 profile-picture">
+						<img src="assets/images/edgar-perfil-blanco.jpg" alt="">
 					</div>
 				</div>
 			</div>
@@ -154,13 +156,43 @@
 						<h3>
 							Portafolio.
 						</h3>
-					</div-col-xl-12>
+					</div>
 				</div>
 			</div>
 
-			<div class="container-fluid">
+			<div class="container-fluid portfolio-items">
 				<div class="row">
-					
+					<div class="col-xl-3">
+						<img src="assets/images/portfolio/terza.png" alt="">
+					</div>
+
+					<div class="col-xl-3">
+						<img src="assets/images/portfolio/eddu.png" alt="">
+					</div>
+
+					<div class="col-xl-3">
+						<img src="assets/images/portfolio/cuponly.png" alt="">
+					</div>
+
+					<div class="col-xl-3">
+						<img src="assets/images/portfolio/origenes.png" alt="">
+					</div>
+
+					<div class="col-xl-3">
+						<img src="assets/images/portfolio/peninsula.png" alt="">
+					</div>
+
+					<div class="col-xl-3">
+						<img src="assets/images/portfolio/iesalud.png" alt="">
+					</div>
+
+					<div class="col-xl-3">
+						<img src="assets/images/portfolio/teescucho.png" alt="">
+					</div>
+
+					<div class="col-xl-3">
+						<img src="assets/images/portfolio/tarjetasoriana.png" alt="">
+					</div>
 				</div>
 			</div>
 		</section>
@@ -176,5 +208,6 @@
   	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
   	<script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
     <script src="assets/js/plugins/stats.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
 </html>

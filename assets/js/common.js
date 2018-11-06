@@ -1,3 +1,9 @@
+//Preload
+window.addEventListener('DOMContentLoaded', function () {
+	hideLoader();
+});
+
+
 $(document).ready(function () {
 
 	init();
@@ -10,7 +16,8 @@ $(document).ready(function () {
 		var data = $(env).serialize();
 
 		if (validateFooterForm(env)) {
-			/*$.ajax({
+			showLoader();
+			$.ajax({
 				type: 'post',
 				url: route,
 				data: data,
@@ -20,7 +27,7 @@ $(document).ready(function () {
 				},
 				error: function () {},
 				succes: function (response) {}
-			});*/
+			});
 		}
 	});
 });
@@ -114,4 +121,21 @@ function validateFooterForm(form)
 function validateEmail(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
+}
+
+/**
+ * [hideLoader description]
+ * @return {[type]} [description]
+ */
+function hideLoader()
+{
+	$('.preloader').fadeOut('slow', function () {
+		$('.preloader').removeClass("d-flex align-items-center justify-content-center");
+	});
+}
+
+function showLoader()
+{
+	$('.preloader').addClass("d-flex align-items-center justify-content-center");
+	$('.preloader').fadeIn('slow');
 }
