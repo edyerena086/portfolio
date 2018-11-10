@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- SEO Tags -->
-    <meta name="author" content="SrYerena">
+    <meta name="author" content="Omar Gonzalez">
+    <meta name="description" content="Desarrollo web, desarrollo de aplicaciones móviles, SEO, desarrrollo de sitios web, desarrollo de aplicaciones hibridas para móviles, desarrollo de apps">
+    <meta name="Keywords" content="desarrollo de sitios web, desarrollo web, desarrollo de apps móviles, desarrollo de aplicaciones móviles">
 
 	<!-- COMMON CSS -->
     <?php include_once('partials/css.php'); ?>
 
     <!-- Page CSS -->
-    <link rel="stylesheet" href="assets/plugins/owlcarousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/plugins/owlcarousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
 
     <!-- page title -->
     <title>
-    	Desarrollo web y de aplicaciones móviles - SrYerena
+    	Desarrollo web y de aplicaciones móviles - Omar Gonzalez
     </title>
 </head>
 
@@ -33,7 +36,7 @@
 		<!-- Slider -->
 		<div class="container-fluid">
 			<div class="row slider">
-				<div class="col-xl-12 justify-content-center d-flex align-items-center">
+				<div id="particles-js" class="col-xl-12 justify-content-center d-flex align-items-center">
 					<h1 id="typed">
 					</h1>
 				</div>
@@ -94,7 +97,7 @@
 
 				<div class="row">
 					<div class="card col-xl-4">
-						<img src="assets/images/servicio-desarrollo-web.png" alt="" class="card-img-top">
+						<img src="assets/images/servicio-desarrollo-web.png" alt="Desarrollo web" class="card-img-top">
 						<div class="card-body">
 							<h3 class="card-title text-center">
 								Desarrollo web
@@ -111,7 +114,7 @@
 					</div>
 
 					<div class="card col-xl-4">
-						<img src="assets/images/servicio-desarrollo-de-aplicaciones-moviles.png" alt="" class="card-img-top">
+						<img src="assets/images/servicio-desarrollo-de-aplicaciones-moviles.png" alt="Desarrollo de aplicaciones móviles" class="card-img-top">
 						<div class="card-body">
 							<h3 class="card-title text-center">
 								Desarrollo de aplicaciones móviles
@@ -128,7 +131,7 @@
 					</div>
 
 					<div class="card col-xl-4">
-						<img src="assets/images/servicio-seo.png" alt="" class="card-img-top">
+						<img src="assets/images/servicio-seo.png" alt="SEO" class="card-img-top">
 						<div class="card-body">
 							<h3 class="card-title text-center">
 								SEO
@@ -163,35 +166,35 @@
 			<div class="container-fluid portfolio-items">
 				<div class="row">
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/terza.png" alt="">
+						<img src="assets/images/portfolio/terza.png" alt="Desarrollo de sitio web - Portal Terza">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/eddu.png" alt="">
+						<img src="assets/images/portfolio/eddu.png" alt="Desarrollo de sitio web - EDDU te ayuda">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/cuponly.png" alt="">
+						<img src="assets/images/portfolio/cuponly.png" alt="Desarrollo de aplicaciones móviles - Cuponly APP">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/origenes.png" alt="">
+						<img src="assets/images/portfolio/origenes.png" alt="Desarrollo de sitio web - Origenes UNO">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/peninsula.png" alt="">
+						<img src="assets/images/portfolio/peninsula.png" alt="Desarrollo de sitio web - Peninsula Steel">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/iesalud.png" alt="">
+						<img src="assets/images/portfolio/iesalud.png" alt="Desarrollo de sitio web - IESalud">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/teescucho.png" alt="">
+						<img src="assets/images/portfolio/teescucho.png" alt="Desarrollo de aplicaciones móviles - APP Te escucho ahora">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/tarjetasoriana.png" alt="">
+						<img src="assets/images/portfolio/tarjetasoriana.png" alt="Desarrollo de sitio web - Tarjeta Soriana">
 					</div>
 				</div>
 			</div>
@@ -207,7 +210,10 @@
   	<!-- Page JS -->
   	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
   	<script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
-    <script src="assets/js/plugins/stats.js"></script>
+  	<!-- WOW -->
+  	<script src="node_modules/wowjs/dist/wow.js"></script>
+  	<!-- Particles JS -->
+    <script src="node_modules/particles.js/particles.js"></script>
     <script src="assets/js/index.js"></script>
 </body>
 </html>

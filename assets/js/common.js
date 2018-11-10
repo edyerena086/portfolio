@@ -41,15 +41,6 @@ function init()
 	//Set slider min height
 	var minHeight = $(window).height();
 	$('.slider').css('min-height', minHeight);
-
-	var options = {
-	  strings: ['Desarrollo de sitios web.', 'Desarrollo de sitios web.', 'Desarrollo de aplicaciones móviles.', 'SEO.'],
-	  typeSpeed: 50,
-	  loop: true,
-	  backDelay: 5000
-	}
-
-	var typed = new Typed("#typed", options);
 }
 
 /**
