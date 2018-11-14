@@ -67,10 +67,19 @@ html, body {
 	color: #f1f1f1;
 }
 
-.services-home-section h2, .portfolio h3 {
+.services-home-section h2, .portfolio h3, .desarrollo-de-sitios-web h2 {
 	font-weight: 700;
 	font-size: 3.4rem;
 	text-decoration: underline;
+}
+
+.navbar-toggler {
+	color: #fff!important;
+	border-color: #fff!important;
+}
+
+.navbar-toggler-icon {
+	color: #fff!important;
 }
 
 /** Sweetalert */
@@ -78,6 +87,18 @@ html, body {
 	-webkit-border-radius: 0px!important;
 	-moz-border-radius: 0px!important;
 	border-radius: 0px!important;
+}
+
+.section-slogan {
+	font-size: 1.1rem;
+	font-family: 'Raleway', sans-serif!important;
+	display: block;
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+}
+
+.bg-black {
+	background-color: #000;
 }
 
 /**
@@ -91,6 +112,12 @@ header {
 }
 .navbar-brand img {
 	max-width: 80px;
+	transition: all 0.4s ease-in-out 0s;
+}
+.small-logo {
+	width: 40px !important;
+    height: 40px !important;
+    transition: all 0.4s ease-in-out 0s;
 }
 .nav-link {
 	color: #f1f1f1!important;
@@ -128,15 +155,19 @@ header {
 	border-bottom-left-radius: 30px;
 	padding: .8rem 3rem;
 }
-.services-home-section, .card {
+.services-home-section, .card, .proceso-desarrollo-de-sitios-web {
 	background-color: #F2F4EC;
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
 .slider {
-	background: url(../images/web-main-slider.jpg) no-repeat center center;
+	background: url(../images/home/web-main-slider.jpg) no-repeat center center;
 	background-size: cover;
 	min-height: 400px;
+}
+
+.inner-card h4 {
+	padding-top: 2rem;
 }
 
 .about-me {
@@ -271,4 +302,78 @@ footer form {
 .footer-display-errors {
 	color: #fff;
 	font-size: .8rem;
+}
+
+/**
+ * -------------------
+ */
+.desarrollo-de-sitios-web {
+	margin-top: 4rem;
+}
+.descripcion-desarrollo-de-sitios-web {
+	margin-bottom: 3rem;
+}
+.slider-desarrollo-web {
+	background: url(../images/desarrollo-web/desarrollo-web-slider.png) no-repeat center center;
+	background-size: cover;
+	min-height: 400px;
+}
+.slider-desarrollo-de-aplicaciones-moviles {
+	background: url(../images/desarrollo-de-aplicaciones-moviles/desarrollo-de-aplicaciones-moviles-slider.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: 400px;
+}
+.slider-seo {
+	background: url(../images/seo/seo-slider.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: 400px;
+}
+.web-description-item {
+	margin-bottom: 1rem;
+	margin-top: 3rem;
+}
+.web-description-item h3 {
+	font-size: 1.4rem;
+	font-weight: 700;
+	padding-top: 2rem;
+	padding-bottom: 1.2rem;
+}
+.web-description-item p {
+	font-size: .9rem;
+}
+.proceso-desarrollo-de-sitios-web .card-text {
+	min-height: 190px!important;
+}
+.desarrollo-web-portafolio {
+	margin-top: 4rem;
+}
+
+.owl-theme {
+	margin-top: 3rem;
+}
+
+
+/**
+ * 
+ */
+@media (max-width: 479px) and (min-width: 0px) {
+	.slider h1 {
+		font-size: 2rem;
+		padding-left: 1.5rem!important;
+		padding-right: 1.5rem!important;
+	}
+
+	.about-me ul li {
+		margin-bottom: 1rem;
+		margin-right: 4rem;
+	}
+
+	.copyright {
+		margin-top: 2rem;
+	}
+
+	.preloader p {
+		color: #fff;
+		font-size: 2rem;
+	}
 }

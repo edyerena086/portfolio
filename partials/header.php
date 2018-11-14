@@ -32,7 +32,7 @@
 			</li>
 
 			<li>
-				<a class="nav-link" href="contacto">
+				<a class="nav-link" href="#contacto">
 					Contacto
 				</a>
 			</li>

@@ -3,7 +3,6 @@ window.addEventListener('DOMContentLoaded', function () {
 	hideLoader();
 });
 
-
 $(document).ready(function () {
 
 	init();
@@ -16,17 +15,37 @@ $(document).ready(function () {
 		var data = $(env).serialize();
 
 		if (validateFooterForm(env)) {
-			showLoader();
+			
 			$.ajax({
 				type: 'post',
 				url: route,
 				data: data,
 				dataType: 'json',
 				beforeSend: function () {
-
+					showLoader();
 				},
-				error: function () {},
-				succes: function (response) {}
+				error: function () {
+					hideLoader();
+
+					sweetAlert({
+						title: "¡Advertencia!", 
+					    text: "Experimentamos fallast técnicas, favor de intentarlo más tarde.", 
+					    icon: "error"
+					});
+				},
+				success: function (response) {
+					hideLoader();
+
+					if (response.errors == false) {
+						window.location = 'gracias'
+					} else {
+						sweetAlert({
+							title: "¡Advertencia!", 
+						    text: response.message, 
+						    icon: "error"
+						});
+					}
+				}
 			});
 		}
 	});
@@ -41,6 +60,15 @@ function init()
 	//Set slider min height
 	var minHeight = $(window).height();
 	$('.slider').css('min-height', minHeight);
+
+	//Logo resizing
+	$(window).scroll(function () {
+		if ($(document).scrollTop() == 0) {
+			$('.navbar-brand img').removeClass('small-logo');
+		} else {
+			$('.navbar-brand img').addClass('small-logo');
+		}
+	});
 }
 
 /**

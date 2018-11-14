@@ -1,7 +1,5 @@
 <?php
 
-namespace Library;
-
 class Validation
 {
 	public function make($values)
@@ -48,12 +46,12 @@ class Validation
 
 		if ($error) {
 			$response = [
-				'error' => true,
-				'errors' => $errors
+				'errors' => true,
+				'message' => $errors
 			];
 		} else {
 			$response = [
-				'error' => false
+				'errors' => false
 			];
 		}
 

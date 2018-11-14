@@ -1,7 +1,7 @@
 <footer>
 	<div class="container">
 		<!-- top -->
-		<div class="row footer-top">
+		<div id="contacto" class="row footer-top">
 			<div class="col-xl-12 text-center">
 				<h5>
 					Contáctame
@@ -13,7 +13,7 @@
 			</div>
 		</div>
 
-		<form action="">
+		<form action="_send.php">
 			<!-- form first row -->
 			<div class="row footer-contact-form">
 				<div class="col-xl-6">
@@ -68,10 +68,10 @@
 		<!-- bottom -->
 		<div class="row footer-bottom">
 			<div class="col-xl-6">
-				¡Me encantaría apoyarte con tu proyecto!<br/><a href="contacto">contáctame</a>
+				¡Me encantaría apoyarte con tu proyecto!<br/><a href="#contacto">contáctame</a>
 			</div>
 
-			<div class="col-xl-6 d-flex align-items-center justify-content-end">
+			<div class="col-xl-6 d-flex align-items-center copyright justify-content-end">
 				&copy;<?php echo(date('Y')) ?> -  Todos los derechos reservados.
 			</div>
 		</div>

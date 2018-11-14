@@ -78,7 +78,7 @@
 					</div>
 
 					<div class="col-xl-4 profile-picture">
-						<img src="assets/images/edgar-perfil-blanco.jpg" alt="">
+						<img src="assets/images/home/edgar-perfil-blanco.jpg" alt="">
 					</div>
 				</div>
 			</div>
@@ -97,7 +97,7 @@
 
 				<div class="row">
 					<div class="card col-xl-4">
-						<img src="assets/images/servicio-desarrollo-web.png" alt="Desarrollo web" class="card-img-top">
+						<img src="assets/images/home/servicio-desarrollo-web.png" alt="Desarrollo web" class="card-img-top">
 						<div class="card-body">
 							<h3 class="card-title text-center">
 								Desarrollo web
@@ -114,7 +114,7 @@
 					</div>
 
 					<div class="card col-xl-4">
-						<img src="assets/images/servicio-desarrollo-de-aplicaciones-moviles.png" alt="Desarrollo de aplicaciones móviles" class="card-img-top">
+						<img src="assets/images/home/servicio-desarrollo-de-aplicaciones-moviles.png" alt="Desarrollo de aplicaciones móviles" class="card-img-top">
 						<div class="card-body">
 							<h3 class="card-title text-center">
 								Desarrollo de aplicaciones móviles
@@ -131,7 +131,7 @@
 					</div>
 
 					<div class="card col-xl-4">
-						<img src="assets/images/servicio-seo.png" alt="SEO" class="card-img-top">
+						<img src="assets/images/home/servicio-seo.png" alt="SEO" class="card-img-top">
 						<div class="card-body">
 							<h3 class="card-title text-center">
 								SEO
