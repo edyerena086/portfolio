@@ -68,7 +68,7 @@
 		<!-- bottom -->
 		<div class="row footer-bottom">
 			<div class="col-xl-6">
-				¡Me encantaría apoyarte con tu proyecto!<br/><a href="#contacto">contáctame</a>
+				¡Me encantaría apoyarte con tu proyecto!<br/><a href="tel:8116362986">T. 8116362986</a>
 			</div>
 
 			<div class="col-xl-6 d-flex align-items-center copyright justify-content-end">

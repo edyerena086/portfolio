@@ -6,8 +6,6 @@ require 'vendor/library/validation.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-$class = new Sender();
-
 class Sender
 {
 	public function sendMail($fields)
@@ -15,6 +13,8 @@ class Sender
 		$validation = new Validation();
 
 		$result = $validation->make($fields);
+
+		echo 'Hola mundo';
 
 		if ($result['errors'] == false) {
 			$mail = new PHPMailer(true);

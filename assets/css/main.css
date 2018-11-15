@@ -328,6 +328,16 @@ footer form {
 	background-size: cover;
 	min-height: 400px;
 }
+.slider-gracias {
+	background: url(../images/gracias/gracias-slider.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: 400px;
+}
+.slider-404 {
+	background: url(../images/404/404-slider.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: 400px;
+}
 .web-description-item {
 	margin-bottom: 1rem;
 	margin-top: 3rem;

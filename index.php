@@ -1,8 +1,13 @@
 <!doctype html>
 <html lang="es">
-<head>	
+<head>
+	<!-- Analitycs -->
+	<?php include_once "partials/analytics.php"; ?>
+
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
 
     <!-- SEO Tags -->
     <meta name="author" content="Omar Gonzalez">
@@ -13,10 +18,7 @@
     <?php include_once('partials/css.php'); ?>
 
     <!-- Page CSS -->
-    <link rel="stylesheet" href="assets/plugins/owlcarousel/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/plugins/owlcarousel/css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main.min.css" />
 
     <!-- page title -->
     <title>
@@ -97,7 +99,7 @@
 
 				<div class="row">
 					<div class="card col-xl-4">
-						<img src="assets/images/home/servicio-desarrollo-web.png" alt="Desarrollo web" class="card-img-top">
+						<img src="assets/images/home/servicio-desarrollo-web.jpg" alt="Desarrollo web" class="card-img-top">
 						<div class="card-body">
 							<h3 class="card-title text-center">
 								Desarrollo web
@@ -114,7 +116,7 @@
 					</div>
 
 					<div class="card col-xl-4">
-						<img src="assets/images/home/servicio-desarrollo-de-aplicaciones-moviles.png" alt="Desarrollo de aplicaciones móviles" class="card-img-top">
+						<img src="assets/images/home/servicio-desarrollo-de-aplicaciones-moviles.jpg" alt="Desarrollo de aplicaciones móviles" class="card-img-top">
 						<div class="card-body">
 							<h3 class="card-title text-center">
 								Desarrollo de aplicaciones móviles
@@ -131,7 +133,7 @@
 					</div>
 
 					<div class="card col-xl-4">
-						<img src="assets/images/home/servicio-seo.png" alt="SEO" class="card-img-top">
+						<img src="assets/images/home/servicio-seo.jpg" alt="SEO" class="card-img-top">
 						<div class="card-body">
 							<h3 class="card-title text-center">
 								SEO
@@ -166,35 +168,35 @@
 			<div class="container-fluid portfolio-items">
 				<div class="row">
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/terza.png" alt="Desarrollo de sitio web - Portal Terza">
+						<img src="assets/images/portfolio/terza.jpg" alt="Desarrollo de sitio web - Portal Terza">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/eddu.png" alt="Desarrollo de sitio web - EDDU te ayuda">
+						<img src="assets/images/portfolio/eddu.jpg" alt="Desarrollo de sitio web - EDDU te ayuda">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/cuponly.png" alt="Desarrollo de aplicaciones móviles - Cuponly APP">
+						<img src="assets/images/portfolio/cuponly.jpg" alt="Desarrollo de aplicaciones móviles - Cuponly APP">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/origenes.png" alt="Desarrollo de sitio web - Origenes UNO">
+						<img src="assets/images/portfolio/origenes.jpg" alt="Desarrollo de sitio web - Origenes UNO">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/peninsula.png" alt="Desarrollo de sitio web - Peninsula Steel">
+						<img src="assets/images/portfolio/peninsula.jpg" alt="Desarrollo de sitio web - Peninsula Steel">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/iesalud.png" alt="Desarrollo de sitio web - IESalud">
+						<img src="assets/images/portfolio/iesalud.jpg" alt="Desarrollo de sitio web - IESalud">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/teescucho.png" alt="Desarrollo de aplicaciones móviles - APP Te escucho ahora">
+						<img src="assets/images/portfolio/teescucho.jpg" alt="Desarrollo de aplicaciones móviles - APP Te escucho ahora">
 					</div>
 
 					<div class="col-xl-3">
-						<img src="assets/images/portfolio/tarjetasoriana.png" alt="Desarrollo de sitio web - Tarjeta Soriana">
+						<img src="assets/images/portfolio/tarjetasoriana.jpg" alt="Desarrollo de sitio web - Tarjeta Soriana">
 					</div>
 				</div>
 			</div>
@@ -209,11 +211,28 @@
 
   	<!-- Page JS -->
   	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-  	<script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
-  	<!-- WOW -->
-  	<script src="node_modules/wowjs/dist/wow.js"></script>
   	<!-- Particles JS -->
-    <script src="node_modules/particles.js/particles.js"></script>
-    <script src="assets/js/index.js"></script>
+    <script src="node_modules/particles.js/particles.min.js"></script>
+    <script src="assets/js/index.min.js"></script>
+
+	<!-- Data structure -->
+    <script type="application/ld+json">
+	    {
+	        "@context" : "http://schema.org",
+	        "@type" : "Organization",
+	        "name" : "Omar Gonzalez - Desarrollo web y aplicaciones móviles.",
+	        "url" : "http://omargonzalez.com.mx",
+	        "sameAs": [
+	            "https://twitter.com/omarGzzMx"
+	        ],
+	        "address": {
+	            "@type": "PostalAddress",
+	            "streetAddress": "Blvd. Antonio L. Rodriguez #1888",
+	            "addressRegion": "NL",
+	            "postalCode": "64650",
+	            "addressCountry": "MX"
+	        }
+	    }
+	</script>
 </body>
 </html>

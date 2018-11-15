@@ -1,0 +1,3 @@
+Sitemap: http://omargonzalez.com.mx/sitemap.xml
+User-agent:*
+Disallow:

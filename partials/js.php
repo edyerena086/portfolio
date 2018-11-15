@@ -9,8 +9,8 @@
   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
   crossorigin="anonymous"></script>
 
-<script src="assets/plugins/validator.js"></script>
+<script src="assets/plugins/validator.min.js"></script>
 
 <script src="node_modules/sweetalert/dist/sweetalert.min.js"></script>
 
-<script src="assets/js/common.js"></script>
+<script src="assets/js/common.min.js"></script>

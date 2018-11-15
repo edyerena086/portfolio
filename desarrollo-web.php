@@ -1,8 +1,13 @@
 <!doctype html>
 <html lang="es">
-<head>	
+<head>
+	<!-- Analitycs -->
+	<?php include_once "partials/analytics.php"; ?>
+
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -11,7 +16,7 @@
 
 	<!-- Page CSS -->
 	<link rel="stylesheet" href="assets/plugins/owlcarousel/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main.min.css" />
 
     <!-- page title -->
     <title>

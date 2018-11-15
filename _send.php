@@ -1,19 +1,20 @@
 <?php
+
+	$campos = '';
+
+	foreach ($_POST as $clave => $valor) {
+		$campos .= ucwords($clave).': '.utf8_decode($valor)."\n";
+	}
 	
-	require 'includes/Sender.php';
+	$para      = 'hola@omargonzalez.com.mx';
+	$titulo    = 'Prospecto - Omar Gonzalez';
+	$mensaje   = utf8_decode("Se ha llenado la forma de contacto con la siguiente información:\n\n").$campos;
+	$cabeceras = 'From: no-reply@omargonzalez.com.mx' . "\r\n" .
+	    'Reply-To: webmaster@example.com' . "\r\n" .
+	    'X-Mailer: PHP/' . phpversion();
 
-	$sender = new Sender();
-
-	$name = (isset($_POST['nombre'])) ? $_POST['nombre'] : '';
-	$lastName = (isset($_POST['apellido'])) ? $_POST['apellido'] : '';
-	$email = (isset($_POST['email'])) ? $_POST['email'] : '';
-	$phone = (isset($_POST['telefono'])) ? $_POST['telefono'] : '';;
-
-	$data = [
-		'nombre' => $name,
-		'apellido' => $lastName,
-		'email' => $email,
-		'telefono' => $phone
-	];
-
-	$sender->sendMail($data);
+	if (mail($para, $titulo, $mensaje, $cabeceras)) {
+		echo json_encode(['errors' => false]);
+	} else {
+		echo json_encode(['errors' => true, 'message' => 'No se ha podido enviar la forma de contacto, intentelo más tarde.']);
+	}
