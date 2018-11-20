@@ -216,23 +216,6 @@
     <script src="assets/js/index.min.js"></script>
 
 	<!-- Data structure -->
-    <script type="application/ld+json">
-	    {
-	        "@context" : "http://schema.org",
-	        "@type" : "Organization",
-	        "name" : "Omar Gonzalez - Desarrollo web y aplicaciones móviles.",
-	        "url" : "http://omargonzalez.com.mx",
-	        "sameAs": [
-	            "https://twitter.com/omarGzzMx"
-	        ],
-	        "address": {
-	            "@type": "PostalAddress",
-	            "streetAddress": "Blvd. Antonio L. Rodriguez #1888",
-	            "addressRegion": "NL",
-	            "postalCode": "64650",
-	            "addressCountry": "MX"
-	        }
-	    }
-	</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Blog","url":"http://blog.omargonzalez.com.mx"}</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Omar Gonzalez","url":"http://omargonzalez.com.mx","sameAs":["https://www.facebook.com/OmarGonzalez-1138490642969134","https://twitter.com/omarGzzMx"]}</script>
 </body>
 </html>
