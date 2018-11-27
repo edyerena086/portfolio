@@ -353,7 +353,7 @@ footer form {
 	margin-bottom: 3rem;
 }
 .slider-desarrollo-web {
-	background: url(../images/desarrollo-web/desarrollo-web-slider.png) no-repeat center center;
+	background: url(../images/desarrollo-web/desarrollo-web-slider.jpg) no-repeat center center;
 	background-size: cover;
 	min-height: 400px;
 }
@@ -424,5 +424,9 @@ footer form {
 	.preloader p {
 		color: #fff;
 		font-size: 2rem;
+	}
+
+	.desarrollo-de-sitios-web h2, .portfolio h3, .services-home-section h2 {
+		font-size: 2.2rem;
 	}
 }

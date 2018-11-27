@@ -1,9 +1,10 @@
 <header class="navbar fixed-top navbar-expand-lg navbar-light">
 	<a class="navbar-brand" href="http://<?php echo($_SERVER['HTTP_HOST']); ?>">
-		<img src="assets/images/logo.png" alt="" />
+		<link itemprop="url" href="http://omargonzalez.com.mx"/>
+		<img itemprop="logo" src="assets/images/logo-min.jpg" alt="" />
 	</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
+		<span class="fa fa-bars" style="color: #fff!important;"></span>
 	</button>
 
 	<!-- top menu -->

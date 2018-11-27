@@ -250,30 +250,6 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- Portfolio -->
-			<!--<div class="desarrollo-web-portafolio">
-				<div class="container">
-					<div class="row">
-						<div class="col-xl-12 text-center">
-							<h2>
-								Portafolio desarrollo de aplicaciones móviles
-							</h2>
-						</div>
-					</div>
-				</div>
-
-				<div class="owl-carousel owl-theme bg-black">
-					<img src="assets/images/desarrollo-web/portafolio01.png" alt="">
-					<img src="assets/images/desarrollo-web/portafolio02.jpg" alt="">
-					<img src="assets/images/desarrollo-web/portafolio03.jpg" alt="">
-					<img src="assets/images/desarrollo-web/portafolio04.jpg" alt="">
-					<img src="assets/images/desarrollo-web/portafolio05.jpg" alt="">
-					<img src="assets/images/desarrollo-web/portafolio06.jpg" alt="">
-					<img src="assets/images/desarrollo-web/portafolio07.jpg" alt="">
-					<img src="assets/images/desarrollo-web/portafolio08.jpg" alt="">
-				</div>
-			</div>-->
 		</section>
 
 		<!-- Footer -->
